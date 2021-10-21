@@ -4,7 +4,8 @@
   "description": "alfred workflow template",
   "keywords": [
     "alfred",
-    "dayjs",
+    "neo",
+    "aiou",
     "alfred-workflow-template"
   ],
   "license": "MIT",
@@ -24,10 +25,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "ava",
+    "test": "pnpm run build && ava",
     "build": "tsc",
-    "pretest": "pnpm run build",
-    "postinstall": "alfy-init",
+    "postinstall": "ifu -c || alfy-init",
     "preuninstall": "alfy-cleanup",
     "ci:publish": "pnpm run build && pnpx changeset publish",
     "ci:version": "pnpx changeset version",
@@ -53,6 +53,7 @@
   "devDependencies": {
     "@aiou/eslint-config": "latest",
     "@changesets/cli": "^2.16.0",
+    "@ifu/cli": "^0.0.3",
     "@types/lodash.isnan": "^3.0.6",
     "alfy-test": "^0.4.0",
     "ava": "^3.12.1",

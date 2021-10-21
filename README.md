@@ -15,7 +15,7 @@
 npm install -g @aiou/alfred-workflow-template
 ```
 
-## refs
+## development
 
 - [alfy](https://github.com/sindresorhus/alfy)
 - [Script Filter JSON Format](https://www.alfredapp.com/help/workflows/inputs/script-filter/json/)
