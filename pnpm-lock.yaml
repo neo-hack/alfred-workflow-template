@@ -10,6 +10,7 @@ specifiers:
   ava: ^3.12.1
   dayjs: ^1.8.36
   eslint: ^7.x
+  esm: ^3.2.25
   husky: ^7.0.0
   lint-staged: ^11.1.0
   lodash.isnan: ^3.0.2
@@ -31,6 +32,7 @@ devDependencies:
   alfy-test: 0.4.2
   ava: 3.15.0
   eslint: 7.32.0
+  esm: 3.2.25
   husky: 7.0.2
   lint-staged: 11.2.3
   prettier: 2.4.1
@@ -2255,7 +2257,6 @@ packages:
   /esm/3.2.25:
     resolution: {integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==}
     engines: {node: '>=6'}
-    dev: false
 
   /espree/6.2.1:
     resolution: {integrity: sha512-ysCxRQY3WaXJz9tdbWOwuWr5Y/XrPTGX9Kiz3yoUXwW0VZ4w30HTkQLaGx/+ttFjF8i+ACbArnB4ce68a9m5hw==}

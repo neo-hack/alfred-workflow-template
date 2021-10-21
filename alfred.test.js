@@ -12,11 +12,6 @@ test('should has default output', async (t) => {
   t.is(!!result, true)
 })
 
-test('should support string durations', async (t) => {
-  const input = '1y1m1ms'
-  t.is(utils.isStringDuration(input), true)
-})
-
 test('should parse string durations correct', async (t) => {
   const input = '1y1m1ms'
   t.deepEqual(utils.parseStringDurations(input), {
