@@ -1,5 +1,11 @@
 # @aiou/alfred-workflow-template
 
+## 1.0.4
+
+### Patch Changes
+
+- 9ef2deb: test with esm
+
 ## 1.0.3
 
 ### Patch Changes
