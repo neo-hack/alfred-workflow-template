@@ -1,5 +1,11 @@
 # @aiou/alfred-workflow-template
 
+## 1.0.3
+
+### Patch Changes
+
+- 8460fbc: prepack workflow yaml
+
 ## 1.0.2
 
 ### Patch Changes
